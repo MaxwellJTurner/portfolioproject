@@ -1,0 +1,88 @@
+.app {
+    background: white;
+
+
+    justify-content: center;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 16px 50px 16px;
+    gap: 80px;
+}
+.header {
+    color: #b1423f;
+    font-size: 150px;
+    text-align: center;
+   
+}
+.section-header {
+    color:#b1423f;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.portfolio {
+    text-decoration: none;
+    color: #2a2b2a;
+    font-size: 60px;
+    text-decoration: underline #b1423f00;
+    transition: text-decoration .3s;
+    margin: 25px;
+}
+.portfolio:hover {
+
+    text-decoration-color: #b1423fff;
+}
+.paragraph {
+    width: 600px;
+    font-size: 20px;
+    color: #2a2b2a;
+    margin-bottom: 25px;
+}
+.contact {
+    font-size: 45px;
+    color: #b1423f;
+    margin-top: 25px;
+}
+.email {
+    color: #2a2b2a;
+    font-size: 20px;
+}
+.linkedin {
+    color: #2a2b2a;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.basicimage {
+    max-width: 400px;
+    object-fit: cover;
+}
+.image-container {
+    display: flex;
+    gap: 32px;
+}
+.shortclips {
+    max-width: 400px;
+}
+.printed {
+    max-width: 360px;
+    height: max-content;
+    max-height: 460px;
+}
+.printcontainer {
+    display: flex ; 
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.publishingcontainer {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.bordered {
+    border: 2px solid #2a2b2a;
+    box-sizing: border-box;
+}

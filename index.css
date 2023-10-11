@@ -1,0 +1,63 @@
+.app {
+    background: rgb(112,202,209);
+background: linear-gradient(180deg, rgba(112,202,209,1) 35%, rgba(212,212,212,1) 100%);
+    text-align: center;
+    justify-content: center;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+.header {
+    color: #b1423f;
+    font-size: 150px;
+   
+}
+.subheader {
+    color:#b1423f;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.opening-line {
+    color: #2a2b2a;
+    font-size: 37px;
+    margin: 25px;
+}
+.portfolio {
+    text-decoration: none;
+    color: #2a2b2a;
+    font-size: 60px;
+    text-decoration: underline #b1423f00;
+    transition: text-decoration .3s;
+    margin: 25px;
+}
+.portfolio:hover {
+
+    text-decoration-color: #b1423fff;
+}
+.paragraph {
+    width: 600px;
+    font-size: 20px;
+    color: #2a2b2a;
+    margin-bottom: 25px;
+}
+.about-me {
+    font-size: 45px;
+    color: #b1423f;
+    margin-top: 25px;
+}
+.contact {
+    font-size: 45px;
+    color: #b1423f;
+    margin-top: 25px;
+}
+.email {
+    color: #2a2b2a;
+    font-size: 20px;
+}
+.linkedin {
+    color: #2a2b2a;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
