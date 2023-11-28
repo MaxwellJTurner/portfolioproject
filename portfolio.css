@@ -104,3 +104,10 @@
     width: 30%;
     justify-content: space-between;
 }
+.portlogo {
+    height: 150px;
+position: relative;
+top: 0;
+left: -410px;
+
+}
