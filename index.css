@@ -115,3 +115,43 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
+.servicesleft {
+
+    position: absolute;
+
+
+}
+.serviceimagetopleft {
+    height: 275px;
+    position: absolute;
+    border: 3px solid #b1423f;
+    top: -400px;
+    left: -750px;
+}
+.serviceimagebottomleft {
+    height: 275px;
+    position: absolute;
+    border: 3px solid #b1423f;
+    bottom: -200px;
+    left: -750px;
+}
+.servicesright{
+position:absolute
+}
+.serviceimagetopright{
+    height: 275px;
+    position: absolute;
+    border: 3px solid #b1423f;
+    top: -400px;
+    right: -750px;
+}
+.serviceimagebottomright{
+    height: 275px;
+    position: absolute;
+    border: 3px solid #b1423f;
+    bottom: -200px;
+    right: -750px;
+}
+.mainlogo{
+    height: 150px;
+}
